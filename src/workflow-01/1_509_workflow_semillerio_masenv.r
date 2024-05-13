@@ -296,9 +296,9 @@ ZZ_final_semillerio_baseline <- function( pmyexp, pinputexps, pserver="local")
   # Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
   param_local$modelos_rank <- c(1)
 
-  param_local$kaggle$envios_desde <-  11000L
-  param_local$kaggle$envios_hasta <- 13000L
-  param_local$kaggle$envios_salto <-   500L
+  param_local$kaggle$envios_desde <-  12250L
+  param_local$kaggle$envios_hasta <- 15000L
+  param_local$kaggle$envios_salto <-   250L
 
   # para el caso que deba graficar
   param_local$graficar$envios_desde <-  8000L
